@@ -1,0 +1,23 @@
+.st-font{
+    
+    font-family: 'Lobster', cursive;
+    font-family: 'Satisfy', cursive;
+
+}
+html,body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+.i-colo{
+    color: chartreuse;
+}
+.t-colo{
+    color: silver;
+}
+
+.s-color:hover {
+    color: red;
+}
+

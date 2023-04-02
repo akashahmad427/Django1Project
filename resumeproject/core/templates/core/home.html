@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class=" mt-4">
+
+    <div class="text-center mt-4">
+        <img src="{% static 'core/images/of.jpg'%}" alt="profile" class="img-thumbnail"
+    width="250px" height="150px">
+    </div>
+    <div class=" mt-2 text-white mx-4 text-justify ">
+        <h1 class="font-weight-bold st-font ">Hello,</h1>
+        <div class="px-4">
+            <p style="text-indent: 70px;"><h4>My name is <b class="text-warning">Akash Ahmad</b>.I am live in bahawalpur in hostel.
+                I am studed in computer science in ilama iqbal college bahawalpur
+                .My father is farmer and his name is Ishtiaq Ahmad.<br><br>
+                I am work as python developer and also know about databases.
+                He is a farmer.He is very good person.I am working as backend web developer from bahawalpur.<br>
+                I am 22 year old. I am working as software enginer you i can help you in this 
+                work without any cast. So contact with me on gmail:<br> <b class="text-warning">namehjkahsd@gmail.com</b><br>
+                I am a person who is positive about every aspect of life.</h4>
+                 
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5 ">Hire Me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-3 offset-sm-2">Contact</a>
+    </div>
+</div>
+ {% endblock content %}
+
+ 
